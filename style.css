@@ -1,16 +1,22 @@
+body{
+    background-color: rgb(241, 206, 162);
+}
 .header{
     width: 1280px;
+    height: auto;
     position: fixed;
+    top: 0;
+    left: 0;
 }
-/* kode CSS navigator */
+/* kode css navigator */
 ul{
-    List-style: none;
-    background: pink;
+    list-style: none;
+    background: #aa2f37;
     padding: 0px 0px;
     margin: 120px 0px;
     position: fixed;
     width: 1280px;
-    height: 60px;
+    height: 80px;
 }
 ul li{
     display: inline-block;
@@ -23,11 +29,11 @@ ul li a{
     text-align: center;
 }
 ul a:hover{
-    background: rgb(255, 255, 98);
+    background-color: lightpink;
 }
-/* kode CSS dropdown */
+/* kode css dropdown */
 ul li ul.dropdown{
-    background: rgb(183, 183, 244);
+    background: #f38383;
     position: absolute;
     display: none;
     width: auto;
@@ -37,28 +43,38 @@ ul li ul.dropdown{
 ul li:hover ul.dropdown{
     display: block;
 }
-/* kode CSS side bar */
+/* kode css side bar */
+.test{
+    display: flexbox;
+}
+
 .column{
     float: left;
     padding: 0px 10px;
 }
-/* Left column */
+/* LEFT COLUMN */
 .column.side{
-    margin: 170px 0px;
-    width: 250px;
-    height: 400px;
-    background-color: darksalmon;
+    margin: 190px 0px;
+    width: 255px;
+    height: 550px;
+    background-color:  #f8f897;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+    border:2px rgb(249, 122, 122) ;
+    border-radius: 20px;
 }
-/* kode CSS middle bar */
+/* Kode css middle bar */
 .column.middle{
-    margin: 170px 0px;
-    width: 970px;
-    height: 400px;
-    background-color: rgb(150, 248, 150);
+    margin: 190px 0px;
+    width: 952px;
+    height: auto;
+    background-color: #fadfb5;
+    color: #ef8585;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;  
+    border-radius: 20px;
 }
 /* kode footer */
 .footer{
-    width: 1280px;
+    width: 1800px;
     position: fixed;
-    margin: 550px 0px;
+    margin: 700px;
 }
